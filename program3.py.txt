@@ -1,0 +1,9 @@
+a = int(input("Enter first no : "))
+b = int(input("Enter second no : "))
+print("Before Swapping ")
+print("a = ",a,"b = ",b)
+a = a + b
+b = b - a
+a = a - b
+print("After Swapping")
+print("a = ",a," b = ",b)
