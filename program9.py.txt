@@ -1,0 +1,4 @@
+words = input("Enter words : ")
+vowels="aeiouAEIOU"
+List_of_vowels = [alpha for alpha in words if alpha in vowels]
+print("List of vowels are", List_of_vowels)
